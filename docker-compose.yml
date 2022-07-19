@@ -2,7 +2,7 @@ version: "3.4"
 
 services:
   wordpress:
-    image: wordpress
+    build: .
     restart: always
     ports:
       - 80:80
